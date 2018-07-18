@@ -1,0 +1,5 @@
+G-2 Giant
+4 1 110 5 80 4 0 0 0 15 TRANSPORTERAIRUNIT
+So zuverlässig wie der Storch ihre Kinder nach Hause bringt, trägt dieser Transporter Ihre Einheiten zum Sieg.
+:/img/AirOhneRand/G-2_Giant_blau.png
+:/img/AirOhneRand/G-2_Giant_rot.png

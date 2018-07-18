@@ -1,0 +1,5 @@
+W-1 Fortress
+4 4 140 0 120 2 10 30 20 40 WATERUNIT
+Big Daddy 
+:/img/WaterOhneRand/W-1_Fortress_blau.png
+:/img/WaterOhneRand/W-1_Fortress_rot.png

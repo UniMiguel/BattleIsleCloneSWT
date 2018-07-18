@@ -1,0 +1,26 @@
+5 5
+grassland 0 0
+grassland 0 0
+grassland 0 0
+grassland 0 0
+grassland 0 0
+grassland 0 0
+grassland 0 1 1 HEADQUATERUNIT :/static/staticUnit/headquater.txt
+grassland 0 0
+grassland 0 0
+grassland 0 0
+grassland 0 0
+grassland 0 0
+grassland 0 1 2 AIRUNIT :/dynamic/dynamicUnit/derbolten.txt
+grassland 0 1 1 AIRUNIT :/dynamic/dynamicUnit/derbolten.txt
+grassland 0 0
+grassland 0 0
+grassland 0 0
+grassland 0 0
+grassland 0 1 2 HEADQUATERUNIT :/static/staticUnit/headquater.txt
+grassland 0 0
+grassland 0 0
+grassland 0 0
+grassland 0 0
+grassland 0 0
+grassland 0 0

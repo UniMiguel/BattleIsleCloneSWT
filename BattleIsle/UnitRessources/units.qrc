@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/dynamic">
+        <file>dynamicUnit/z1pegasus.txt</file>
+        <file>dynamicUnit/xf7mosquito.txt</file>
+        <file>dynamicUnit/xa7raven.txt</file>
+        <file>dynamicUnit/w1fortress.txt</file>
+        <file>dynamicUnit/tlavinvader.txt</file>
+        <file>dynamicUnit/tbxmarauder.txt</file>
+        <file>dynamicUnit/t7crusader</file>
+        <file>dynamicUnit/t4gladiator.txt</file>
+        <file>dynamicUnit/t3scorpion.txt</file>
+        <file>dynamicUnit/scpmerlin.txt</file>
+        <file>dynamicUnit/r1demon.txt</file>
+        <file>dynamicUnit/msmiguel.txt</file>
+        <file>dynamicUnit/mbabuccaneer.txt</file>
+        <file>dynamicUnit/mannuel.txt</file>
+        <file>dynamicUnit/lucas.txt</file>
+        <file>dynamicUnit/kevarn.txt</file>
+        <file>dynamicUnit/g2giant.txt</file>
+        <file>dynamicUnit/favbuster.txt</file>
+        <file>dynamicUnit/derbolten.txt</file>
+        <file>dynamicUnit/cvamazon.txt</file>
+        <file>dynamicUnit/casfirebird</file>
+        <file>dynamicUnit/ben.txt</file>
+        <file>dynamicUnit/ad9sphinx.txt</file>
+        <file>dynamicUnit/ad5blitz</file>
+    </qresource>
+    <qresource prefix="/static">
+        <file>staticUnit/depot.txt</file>
+        <file>staticUnit/factory.txt</file>
+        <file>staticUnit/headquater.txt</file>
+    </qresource>
+</RCC>

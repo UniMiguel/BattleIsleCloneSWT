@@ -1,0 +1,5 @@
+T-4 Gladiator
+8 5 70 0 50 8 25 25 25 25 MEDIUMUNIT
+Ausdauer eines Marathonläufers, geeignet zum Flankieren.
+:/img/GroundOhneRand/T-4_Gladiator_blau.png
+:/img/GroundOhneRand/T-4_Gladiator_rot.png

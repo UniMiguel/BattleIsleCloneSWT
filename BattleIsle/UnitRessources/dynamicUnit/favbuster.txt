@@ -1,0 +1,5 @@
+FAV-Buster
+3 3 40 0 35 3 0 0 50 15 LIGHTUNIT
+Boom boom, damit wäre alles geklärt.
+:/img/GroundOhneRand/FAV_Buster_blau.png
+:/img/GroundOhneRand/FAV_Buster_rot.png

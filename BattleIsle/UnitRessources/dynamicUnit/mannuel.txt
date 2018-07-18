@@ -1,0 +1,5 @@
+Mann u. El
+4 2 180 0 100 4 20 30 50 35 HEAVYUNIT
+Dieser fast unzerstoerbare Panzer ist ein musthave fuer jeden Mann und natuerlich jede Frau, die eine Schlacht zu gewinnen haben. 
+:/img/GroundOhneRand/T-7_Crusader_blau.png
+:/img/GroundOhneRand/T-7_Crusader_rot.png

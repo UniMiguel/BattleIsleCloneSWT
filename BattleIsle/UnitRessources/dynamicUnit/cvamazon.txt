@@ -1,0 +1,5 @@
+CV-Amazon
+5 3 75 0 80 4 50 10 0 25 WATERUNIT
+Dieses Schiff eignet sich um Lufteinheiten zu bekämpfen
+:/img/WaterOhneRand/CV_Amazon_blau.png
+:/img/WaterOhneRand/CV_Amazon_rot.png

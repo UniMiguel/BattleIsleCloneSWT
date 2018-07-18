@@ -1,0 +1,5 @@
+AD9-Sphinx
+5 4 140 0 110 5 0 40 70 50 HEAVYUNIT
+Auf Grund seiner Konstruktion ist der ad9 Sphinx sehr effektiv für Bodenschlachten und kann Schiffen gefährlich werden. Er ist aber kein König der Lüfte.
+:/img/GroundOhneRand/AD-9_Sphinx_blau.png
+:/img/GroundOhneRand/AD-9_Sphinx_rot.png

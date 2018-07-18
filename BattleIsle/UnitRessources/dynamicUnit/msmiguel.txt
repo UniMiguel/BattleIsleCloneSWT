@@ -1,0 +1,5 @@
+M.S Miguel
+5 6 200 0 100 5 20 50 20 30 WATERUNIT
+Wie ein Eisberg laesst es andere Schiffe sinken
+:/img/WaterOhneRand/U-7C_Barracuda_blau.png
+:/img/WaterOhneRand/U-7C_Barracuda_rot.png

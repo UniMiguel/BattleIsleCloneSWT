@@ -1,0 +1,5 @@
+XA-7 Raven
+4 4 65 0 50 4 40 15 15 10 AIRUNIT
+Gets the job done 
+:/img/AirOhneRand/XA-7_Raven_blau.png
+:/img/AirOhneRand/XA-7_Raven_rot.png

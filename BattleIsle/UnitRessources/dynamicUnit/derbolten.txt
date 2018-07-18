@@ -1,0 +1,5 @@
+Der Bolten
+4 4 85 0 100 4 70 40 65 15 AIRUNIT
+Auch als Professor der Luefte bekannt, da es fast jeden Luftkampf gewinnt.
+:/img/AirOhneRand/CAS_Firebird_blau.png
+:/img/AirOhneRand/CAS_Firebird_rot.png

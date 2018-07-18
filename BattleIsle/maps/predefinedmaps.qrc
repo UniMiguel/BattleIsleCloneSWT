@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/test">
+        <file>map.txt</file>
+        <file>OriginalMap1.txt</file>
+        <file>HQTestMap.txt</file>
+        <file>TransporterTextMap.txt</file>
+        <file>CustomMap.txt</file>
+    </qresource>
+</RCC>

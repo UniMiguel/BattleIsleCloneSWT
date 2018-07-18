@@ -1,0 +1,6 @@
+TLAV Invader
+4 2 200 0 110 4 25 35 55 50 HEAVYUNIT
+Kämpfst du noch oder tankst du schon?
+:/img/GroundOhneRand/TLAV_Invader_blau.png
+:/img/GroundOhneRand/TLAV_Invader_rot.png
+

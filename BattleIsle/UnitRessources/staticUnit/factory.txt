@@ -1,0 +1,6 @@
+Fabrik
+3 1 250 3 200 FACTORYUNIT
+Hier kannst du Einheiten produzieren.
+:/img/StaticOhneRand/Factory_grau.png
+:/img/StaticOhneRand/Factory_blau.png
+:/img/StaticOhneRand/Factory_rot.png

@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>845</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Battle Isle MapEditor</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="6" column="12">
+     <widget class="QLCDNumber" name="lcdPlayer1">
+      <property name="styleSheet">
+       <string notr="true">selection-color: rgb(0, 0, 255);
+color: rgb(0, 0, 255);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <property name="midLineWidth">
+       <number>0</number>
+      </property>
+      <property name="segmentStyle">
+       <enum>QLCDNumber::Filled</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="10">
+     <widget class="QLabel" name="UnitAnzlabel">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Unit Anzahl:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="13">
+     <widget class="QLCDNumber" name="lcdPlayer2">
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="8">
+     <widget class="QPushButton" name="rotateRBut">
+      <property name="text">
+       <string>Rotate -&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="11">
+     <widget class="QLCDNumber" name="lcdTotal">
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="4">
+     <widget class="QLCDNumber" name="lcdBoltCach">
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="3">
+     <widget class="QSpinBox" name="spinBoltanium"/>
+    </item>
+    <item row="6" column="14">
+     <widget class="QPushButton" name="zoomOutBut">
+      <property name="text">
+       <string>Zoom OUT</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" rowspan="3" colspan="2">
+     <widget class="QGraphicsView" name="menueView">
+      <property name="sizeAdjustPolicy">
+       <enum>QAbstractScrollArea::AdjustToContentsOnFirstShow</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="15">
+     <widget class="QLabel" name="labelY">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Y:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="16">
+     <widget class="QSpinBox" name="spinBoxY"/>
+    </item>
+    <item row="6" column="2">
+     <widget class="QPushButton" name="deleteAllBut">
+      <property name="text">
+       <string>Entferne alle Einheiten</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="5">
+     <widget class="QPushButton" name="setBoltButt">
+      <property name="text">
+       <string>setze Boltanium</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2" rowspan="3" colspan="15">
+     <widget class="QGraphicsView" name="hexfieldGraphic">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="cursor" stdset="0">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QAbstractScrollArea::AdjustToContents</enum>
+      </property>
+      <property name="resizeAnchor">
+       <enum>QGraphicsView::AnchorViewCenter</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QPushButton" name="ResetButton">
+      <property name="text">
+       <string>Reset</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="7">
+     <widget class="QPushButton" name="deleteBoltBut">
+      <property name="text">
+       <string>Entferne Boltanium</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="6">
+     <widget class="QLabel" name="UnitAnzlabel_2">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Total Boltanium</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="6">
+     <widget class="QLCDNumber" name="lcdBoltTotal">
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="7">
+     <widget class="QPushButton" name="deleteAllBoltBut">
+      <property name="text">
+       <string>Entferne alles Boltanium</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="5">
+     <widget class="QPushButton" name="getBoltButt">
+      <property name="text">
+       <string>speicher Boltanium</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="4">
+     <widget class="QLabel" name="boltCachLabel">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Speicher</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="3">
+     <widget class="QLabel" name="boltLabel">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Boltanium</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QPushButton" name="deleteBut">
+      <property name="text">
+       <string>Entferne Einheit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QPushButton" name="UnitMenueBut">
+      <property name="text">
+       <string>Einheiten</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QPushButton" name="HexMenueBut">
+      <property name="text">
+       <string>Hexagon</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="8">
+     <widget class="QPushButton" name="rotateLBut">
+      <property name="text">
+       <string>&lt;- Rotate</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="9">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="fillingText">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Fill: </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="fillingLabel">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="5" column="11">
+     <widget class="QLabel" name="labelTotal">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Total</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="12">
+     <widget class="QLabel" name="Ply1label">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#0000ff;&quot;&gt;Spieler 1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="13">
+     <widget class="QLabel" name="Ply2label">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;Spieler 2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="14">
+     <widget class="QPushButton" name="zoomINBut">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>Zoom IN</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="16">
+     <widget class="QSpinBox" name="spinBoxX"/>
+    </item>
+    <item row="5" column="15">
+     <widget class="QLabel" name="labelX">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>X:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+   <zorder>menueView</zorder>
+   <zorder>hexfieldGraphic</zorder>
+   <zorder>setBoltButt</zorder>
+   <zorder>lcdBoltCach</zorder>
+   <zorder>spinBoltanium</zorder>
+   <zorder>rotateRBut</zorder>
+   <zorder>UnitAnzlabel</zorder>
+   <zorder>lcdTotal</zorder>
+   <zorder>lcdPlayer1</zorder>
+   <zorder>lcdPlayer2</zorder>
+   <zorder>zoomOutBut</zorder>
+   <zorder>labelY</zorder>
+   <zorder>spinBoxY</zorder>
+   <zorder>deleteAllBut</zorder>
+   <zorder>ResetButton</zorder>
+   <zorder>deleteBoltBut</zorder>
+   <zorder>UnitAnzlabel_2</zorder>
+   <zorder>lcdBoltTotal</zorder>
+   <zorder>deleteAllBoltBut</zorder>
+   <zorder>getBoltButt</zorder>
+   <zorder>boltCachLabel</zorder>
+   <zorder>boltLabel</zorder>
+   <zorder>deleteBut</zorder>
+   <zorder>UnitMenueBut</zorder>
+   <zorder>HexMenueBut</zorder>
+   <zorder>rotateLBut</zorder>
+   <zorder>labelTotal</zorder>
+   <zorder>Ply1label</zorder>
+   <zorder>Ply2label</zorder>
+   <zorder>zoomINBut</zorder>
+   <zorder>spinBoxX</zorder>
+   <zorder>labelX</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1366</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuDatei">
+    <property name="title">
+     <string>&amp;Datei</string>
+    </property>
+    <addaction name="actionNeue_Map"/>
+    <addaction name="actionLoad_Map"/>
+    <addaction name="separator"/>
+    <addaction name="actionSpeichern"/>
+    <addaction name="actionSpeichernForBIC"/>
+   </widget>
+   <widget class="QMenu" name="menuHilfe">
+    <property name="title">
+     <string>&amp;Hilfe</string>
+    </property>
+   </widget>
+   <addaction name="menuDatei"/>
+   <addaction name="menuHilfe"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionNeue_Map">
+   <property name="text">
+    <string>&amp;Neue Map</string>
+   </property>
+  </action>
+  <action name="actionLoad_Map">
+   <property name="text">
+    <string>&amp;Load Map</string>
+   </property>
+  </action>
+  <action name="actionSpeichern">
+   <property name="text">
+    <string>&amp;Speichern</string>
+   </property>
+  </action>
+  <action name="actionSpeichernForBIC">
+   <property name="text">
+    <string>Speichern &amp;für Battle Isle Clone</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

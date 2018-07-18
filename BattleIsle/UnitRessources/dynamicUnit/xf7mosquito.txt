@@ -1,0 +1,5 @@
+XF-7 Mosquito
+4 4 70 0 55 4 35 25 25 25 AIRUNIT
+Effizienter Allrounder
+:/img/AirOhneRand/XF-7_Mosquito_blau.png
+:/img/AirOhneRand/XF-7_Mosquito_rot.png

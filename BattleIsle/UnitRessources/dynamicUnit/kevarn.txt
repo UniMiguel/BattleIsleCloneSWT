@@ -1,0 +1,5 @@
+Kevarn
+5 1 110 5 70 5 0 0 0 15 TRANSPORTERGROUND
+Kevarn, es gibt kein besseren Transporter als diesen. Erfunden von dem genialen Ingenieur Kevin Arne III.
+:/img/GroundOhneRand/SC-T_Provider_blau.png
+:/img/GroundOhneRand/SC-T_Provider_rot.png

@@ -1,0 +1,5 @@
+Lucas
+4 3 130 0 70 4 50 50 50 25 MEDIUMUNIT
+Dieses kampffaehige Fahrzeug ist ein allround Talent und braucht sich vor keinem Kampf zu fuerchten.
+:/img/GroundOhneRand/HG-12_Angel_blau.png
+:/img/GroundOhneRand/HG-12_Angel_rot.png

@@ -1,0 +1,11 @@
+staticUnit:
+	name
+	view range hp unitStorageMax maxEnergieStorage type
+	details
+	bildpath
+
+dynamicUnit:
+	name
+	view range hp unitStorageMax costs moveRange airatt wateratt groundatt autorepair type
+	detail
+	bildpath

@@ -1,0 +1,5 @@
+Z-1 Pegasus
+5 5 100 7 70 5 0 0 0 10 TRANSPORTERWATER
+Your parcel is in good hands. 
+:/img/WaterOhneRand/Z-1_Pegasus_blau.png
+:/img/WaterOhneRand/Z-1_Pegasus_rot.png

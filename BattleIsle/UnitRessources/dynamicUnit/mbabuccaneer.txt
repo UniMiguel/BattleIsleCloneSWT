@@ -1,0 +1,5 @@
+MB-A Buccaneer
+4 3 80 0 70 3 5 60 15 25 WATERUNIT
+„Gott selbst könnte dieses Schiff nicht versenken!“
+:/img/WaterOhneRand/MB-A_Buccaneer_blau.png
+:/img/WaterOhneRand/MB-A_Buccaneer_rot.png

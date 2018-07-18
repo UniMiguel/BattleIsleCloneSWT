@@ -1,0 +1,5 @@
+SC-P Merlin
+4 1 10 0 70 4 0 0 0 0 BUILDERUNIT
+Eine einzige Person, so produktiv, dass sie ganze Gebäude errichten kann.
+:/img/GroundOhneRand/SC-P_Merlin_blau.png
+:/img/GroundOhneRand/SC-P_Merlin_rot.png
